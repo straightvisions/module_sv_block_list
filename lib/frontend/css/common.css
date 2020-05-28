@@ -1,5 +1,0 @@
-.edit-post-visual-editor.editor-styles-wrapper ul, .sv100_sv_content_wrapper article ul,
-.edit-post-visual-editor.editor-styles-wrapper ol, .sv100_sv_content_wrapper article ol
-{
-	max-width:var( --sv100_sv_common-max-width-text );
-}
