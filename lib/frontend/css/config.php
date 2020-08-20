@@ -1,6 +1,6 @@
 <?php
 	echo $_s->build_css(
-		is_admin() ? '.editor-styles-wrapper ul, .editor-styles-wrapper ol' : '.sv100_sv_content_wrapper article ul, .sv100_sv_content_wrapper article ol',
+		is_admin() ? '.editor-styles-wrapper ul, .editor-styles-wrapper ol' : '.sv100_sv_content_wrapper article ul:not(.wp-block-navigation__container), .sv100_sv_content_wrapper article ol',
 		array_merge(
 			$script->get_parent()->get_setting('font')->get_css_data('font-family'),
 			$script->get_parent()->get_setting('font_size')->get_css_data('font-size','','px'),
