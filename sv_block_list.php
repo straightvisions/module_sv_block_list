@@ -8,9 +8,9 @@
 				->set_css_cache_active()
 				->set_section_title( $this->get_module_title() )
 				->set_section_desc( $this->get_module_desc() )
-				->set_section_type( 'settings' )
 				->set_section_template_path()
 				->set_section_order(5000)
+				->set_section_icon('<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M4 1h20v2h-20v-2zm0 7h20v-2h-20v2zm0 5h20v-2h-20v2zm0 5h20v-2h-20v2zm0 5h20v-2h-20v2zm-2-22h-2v2h2v-2zm0 5h-2v2h2v-2zm0 5h-2v2h2v-2zm0 5h-2v2h2v-2zm0 5h-2v2h2v-2z"/></svg>')
 				->get_root()
 				->add_section( $this );
 		}
