@@ -1,8 +1,8 @@
 <?php
 	echo $_s->build_css(
-		'.wp-site-blocks main ul:not(.wp-block-navigation__container):not(.blocks-gallery-grid),
+		'.wp-site-blocks main ul:not(.wp-block-navigation__container):not(.blocks-gallery-grid):not(.wp-block-post-template),
 		.wp-site-blocks main ol,
-		.editor-styles-wrapper main ul:not(.wp-block-navigation__container):not(.blocks-gallery-grid),
+		.editor-styles-wrapper main ul:not(.wp-block-navigation__container):not(.blocks-gallery-grid):not(.wp-block-post-template),
 		.editor-styles-wrapper main ol',
 		array_merge(
 			$module->get_setting('font')->get_css_data('font-family'),
@@ -15,9 +15,9 @@
 	);
 
 	echo $_s->build_css(
-		'.wp-site-blocks main ul:not(.wp-block-navigation__container):not(.blocks-gallery-grid):not(.has-text-color),
+		'.wp-site-blocks main ul:not(.wp-block-navigation__container):not(.blocks-gallery-grid):not(.has-text-color):not(.wp-block-post-template),
 		.wp-site-blocks main ol:not(.has-text-color),
-		.editor-styles-wrapper main ul:not(.wp-block-navigation__container):not(.blocks-gallery-grid):not(.has-text-color),
+		.editor-styles-wrapper main ul:not(.wp-block-navigation__container):not(.blocks-gallery-grid):not(.has-text-color):not(.wp-block-post-template),
 		.editor-styles-wrapper main ol:not(.has-text-color)',
 		array_merge(
 			$module->get_setting('text_color')->get_css_data(),
