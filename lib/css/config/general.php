@@ -9,8 +9,7 @@
 			$module->get_setting('font_size')->get_css_data('font-size','','px'),
 			$module->get_setting('line_height')->get_css_data('line-height'),
 			$module->get_setting('padding')->get_css_data('padding', '', ' !important'), // hotfix important to override .wp-container CSS
-			$module->get_setting('margin')->get_css_data(),
-			$module->get_setting('border')->get_css_data()
+			$module->get_setting('margin')->get_css_data()
 		)
 	);
 
